@@ -1,0 +1,313 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Thomas Sauvajon - Software Engineer"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "Thomas Sauvajon"
+  description = "Personal website"
+  email = "thomas.sauvajon.dev@gmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "Thomas Sauvajon"
+    home = "Home"
+    work = "Projects"
+    testimonials = "Achievements"
+    services = "Hobbies"
+    about = "Jobs"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    [[menu.prepend]]
+     url = "https://linkedin.com/in/tsauvajon"
+     name = "Linkedin"
+     weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "Software Engineer"
+    subtitle = 'Motivated by solving problems, by challenges and innovation, fond of new technologies. Interested in physics, litterature and psychology, I spend a lot of time reading. In my free time I play board games, drink beers, practice mountain hiking, play soccer and of course try out new and innovative stuff !'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Passionate reader"
+    description = 'From History, biographies, Science to "classicals", technology and thrillers, I read about 50 books per year.'
+    url = "https://www.goodreads.com/user/show/71319762-thomas-sauvajon"
+    button = "Goodreads profile"
+    icon = "icon-book-open"
+    img = "library.jpg"
+
+  [[params.intro.item]]
+    title = "Technology enthusiast"
+    description = "Proactive learning and technology watch is of utmost importance in tech; that's why I am subscribed to newsletters, blogs, Twitter accounts and spend several hours a week reading about new and innovative stuff."
+    url = "https://stackshare.io/tsauvajon"
+    icon = "icon-puzzle"
+    button = "Stackshare profile"
+    img = "neons.jpg"
+
+  [[params.intro.item]]
+    title = "Active learner"
+    description = "The best way to learn something is to try it. That's why I've built tens of weekend projects to try out technologies and concepts."
+    url = "https://github.com/tsauvajon"
+    button = "Github profile"
+    icon = "icon-chemistry"
+    img = "coding.jpg"
+
+
+  # Projects section
+  [params.work]
+    enable = true
+    title = "Projects"
+    description = 'All of my open source repositories and projects can be found on my <a href="https://github.com/tsauvajon">GitHub page</a>.'
+    footertext = '&#42; closed source'
+
+    [[params.work.row]]
+      img = "workhearth.jpg"
+      alt = "Workhearth.com screenshot"
+      url = "http://workhearth.com/"
+      title = "Workhearth*"
+      subtitle = "Messaging application"
+
+    [[params.work.row]]
+      img = "alphabets-login.jpg"
+      url = "https://github.com/tsauvajon/ws-blockchain"
+      alt = "AlphaBets login page"
+      title = "AlphaBets"
+      subtitle = "Decentralized betting application"
+
+    [[params.work.row]]
+      img = "tennis.jpg"
+      url = "https://github.com/poudre-aux-yeux/rapiquette"
+      alt = "Tennis stock photo"
+      title = "Matte Ma Raquette"
+      subtitle = "Tennis live scores and more"
+
+    [[params.work.row]]
+      img = "echecs.jpg"
+      url = "https://tsauvajon.github.io/epsi-echec-client"
+      alt = "Screenshot of EPSI Chess"
+      title = "EPSI Chess"
+      subtitle = "Web chess game"
+
+    [[params.work.row]]
+      img = "code.jpg"
+      url = "https://www.gerflor.com"
+      alt = "Javascript code stock photo"
+      title = "DRAM / DEUS*"
+      subtitle = "Automation & Urbanization sytems @ Gerflor"
+
+    [[params.work.row]]
+      img = "documents.jpg"
+      alt = "Documents stock photo"
+      url = "https://www.gerflor.com"
+      title = "Prism*"
+      subtitle = "Electronic Document Management @ Gerflor"
+
+  # Achievements section
+  [params.testimonials]
+    enable = true
+    title = "Achievements"
+    description = "I am actively participating in the Open Source community in Montpellier, and have had the chance to give talks at several places and occasions."
+
+    [[params.testimonials.item]]
+      quote = "Multiple talks: &ldquo;Continuous Integration and Continuous Delivery with Jenkins&rdquo;, &ldquo;C# Best Practices&rdquo;, &ldquo;Why is code quality important and how to improve it ?&rdquo;, &ldquo;Introduction to Docker&rdquo; and some internal applications live demos and presentations"
+      person = 'Gerflor <a href="https://www.gerflor.com" target="_blank">www.gerflor.com</a> <span class="subtext">Flooring group</span>'
+      img = "gerflor_mini.jpg"
+      alt = "Gerflor, the flooring group"
+
+    [[params.testimonials.item]]
+      quote = 'Won the <a href="https://www.openmainframeproject.org/blog/2018/01/23/blockchain-hackathon-unleashing-creativity-linuxone-scale">Blockchain Hackathon: Unleashing the creativity at LinuxONE scale</a>. 80 teams of 5 participants.'
+      person = 'IBM Montpellier <a href="https://www.ibm.com/ibm/clientcenter/montpellier/" target="_blank">www.ibm.com</a> <span class="subtext">Client Center</span>'
+      img = "IBM_logo.svg.png"
+      alt = "IBM logo"
+
+    [[params.testimonials.item]]
+      quote = "Valedictorian of my promotion (development major)"
+      person = 'EPSI Montpellier <a href="http://www.epsi.fr/campus/campus-de-montpellier/" target="_blank">www.epsi.fr</a> <span class="subtext">Computer Science Engineering School</span>'
+      img = "epsi-logo-hd.jpg"
+      alt = "EPSI"
+
+  [params.testimonials.video]
+    enable = true
+    title = "Blockchain hackaton"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=K1XOHtFVnQg"
+    
+
+
+
+  # Hobbies section
+  [params.services]
+    enable = true
+    title = "Hobbies"
+    description = "Having a good work-life balance is important to me."
+
+    [[params.services.item]]
+      title = "Mountain hiking &amp; walks"
+      description = "The fresh air and sun are necessary to my well-being; moreover, I've been raised in a mountain hikers family."
+      icon = "icon-compass"
+
+    [[params.services.item]]
+      title = "Board games"
+      description = "With friends, we often play board and card games. Some of my favorite board games include Dominion, Time's Up and Cards against Humanity."
+      icon = "icon-people"
+
+    [[params.services.item]]
+      title = "Bars &amp; restaurants"
+      description = "I go out and eat or have a drink as often as possible: I really enjoy French gastronomy, and in particular that of the South-Western region."
+      icon = "icon-cup"
+
+    [[params.services.item]]
+    title = "Travelling"
+    description = "I love to discover new regions, countries, cultures and food. That's why I visited several cities in France, Italy, Spain, Switzerland, the UK and the USA. I am also planning on moving to a foreign country, such as the Netherlands, Australia, the USA ..."      
+    icon = "icon-map"
+
+    [[params.services.item]]
+    title = "Blockchain &amp; cryptocurrencies"
+    description = "I am deeply interested and involved in the blockchain technology in general and some applications in particular (for example **[Nebulas](https://nebulas.io/)** - Search Engine and **[Origin Trail](https://origintrail.io/)** - Supply Chain)."      
+    icon = "icon-layers"
+
+    [[params.services.item]]
+    title = "Sports"
+    description = "I've always played collective sports, competitively and for fun: football, baseball, US football... I love to play Futsal from time to time."      
+    icon = "icon-badge"
+
+  # Jobs section
+  [params.about]
+    enable = true
+    title = "Jobs"
+    description = "My previous positions."
+
+    [[params.about.item]]
+      name = "Gerflor"
+      position = "Software Engineer"
+      description = "Conceived, built, deployed and maintained software in various languages and frameworks (mostly **C#** and **Vue.js**). *3 years sandwich course training*."
+      img = "g.jpg"
+      alt = "Gerflor G logo"
+      social = [
+        ["icon-twitter", "https://twitter.com/gerflorgroup"],
+        ["icon-facebook", "https://www.facebook.com/GerflorGroup/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/gerflor"],
+        ["icon-globe", "https://www.gerflor.com"]
+      ]
+
+    [[params.about.item]]
+      name = "VehiZen"
+      position = "Web Developer"
+      description = "Conceived and developped a messaging application and some UI components in **jQuery**, **C#** and **HTML / CSS**, using Microsoft **Azure**. *2 times 2 month summer jobs*."
+      img = "vehizen.png"
+      alt = "VehiZen IoT car"
+      social = [
+        ["icon-twitter", "https://twitter.com/vehizen"],
+        ["icon-linkedin", "https://www.linkedin.com/company/vehizen/"],
+        ["icon-globe", "http://www.vehizen.com/"]
+      ]
+
+    [[params.about.item]]
+      name = "COM3D"
+      position = "Unity3D Developer"
+      description = "Conceived and developped an **iOS dice game** with **C#** and **Unity3D**. First and only time developing games and using 3D. *2 months internship*."
+      img = "com3d.png"
+      alt = "3D play logo"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/company/com3d/"],
+        ["icon-globe", "https://www.com3d.fr/"]
+      ] 
+
+    [[params.about.item]]
+      name = "Oktalogic"
+      position = "Web Developer"
+      description = "Redesigned and built some back-office applications in **C#**, **Silverlight** and **ASP.Net**. First steps with Object Oriented programming and the MVC pattern. *2 months internship*."
+      img = "oktalogic.png"
+      alt = "Chip connections"
+      social = [
+        ["icon-globe", "http://www.oktalogic.com/"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Some figures ..."
+    background = "city.jpg"
+
+    [[params.counters.item]]
+      description = "years old"
+      icon = "icon-present"
+      from = 0
+      to = 24
+      interval = 50
+      speed = 2000
+
+    [[params.counters.item]]
+      description = "years of professional experience"
+      icon = "icon-briefcase"
+      from = 0
+      to = 3
+      interval = 50
+      speed = 2000
+
+    [[params.counters.item]]
+      description = "GitHub contributions"
+      icon = "icon-github"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 2000
+
+    [[params.counters.item]]
+      description = "Graduation year"
+      icon = "icon-graduation"
+      from = 1993
+      to = 2019
+      interval = 50
+      speed = 2000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in touch"
+    description = ""
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "31b Avenue St-Lazare 34000 Montpellier (France)"],
+        ["icon-phone", "(33) 6 99 35 37 32"],
+        ["icon-envelope", "thomas.sauvajon@gmail.com"],
+        ["icon-globe", '<a href="http://tsauvajon.fr" target="_blank">tsauvajon.fr</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Thomas Sauvajon. All Rights Reserved.<br>Built with <a href="https://gohugo.io/">Hugo</a>. Stock photos from <a href="https://www.pexels.com">Pexels</a>. Template &copy; Elate <a href="http://freehtml5.co/" target="_blank">Free HTML5</a>. Hugo port by <a href="https://github.com/saey55" target="_blank">saey55</a>.'
+    links = [
+        ["icon-github", "https://github.com/tsauvajon"],
+        ["icon-twitter", "https://twitter.com/thomas_sauvajon"],
+        ["icon-facebook", "https://www.facebook.com/sauvajlol"],
+        ["icon-linkedin", "https://linkedin.com/in/tsauvajon"]
+      ]
