@@ -251,7 +251,7 @@ theme = "hugo-elate-theme"
       description = "years old"
       icon = "icon-present"
       from = 0
-      to = 24
+      to = 25
       interval = 50
       speed = 2000
 
@@ -267,7 +267,7 @@ theme = "hugo-elate-theme"
       description = "GitHub contributions"
       icon = "icon-github"
       from = 0
-      to = 1302
+      to = 1462
       interval = 50
       speed = 2000
 
