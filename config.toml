@@ -40,7 +40,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Développeur web"
-    subtitle = 'Je me suis passioné pour le développement web il y a peu et je suis en constante évolution grâce à mon envie d'apprendre et à ma motivation. Je suis autonome et je suis à l'écoute des actualités du monde informatique ainsi que son évolution.'
+    subtitle = 'Je me suis passioné pour le développement web il y a peu et je suis en constante évolution grâce à mon envie d\'apprendre et à ma motivation. Je suis autonome et je suis à l\'écoute des actualités du monde informatique ainsi que son évolution.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
