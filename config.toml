@@ -79,21 +79,21 @@ theme = "hugo-elate-theme"
     footertext = '&#42; closed source'
 
     [[params.work.row]]
-      img = "dati.jpg"
+      img = "dati.png"
       alt = "dati.dalyo.com screenshot"
       url = "https://dati.dalyo.com/"
       title = "Dalyo DATI"
       subtitle = "Application web pour la gestion d'alerte pour les travailleurs isolés"
 
     [[params.work.row]]
-      img = "ddm.jpg"
+      img = "ddm.png"
       alt = "ddm.dalyo.com screenshot"
       url = "https://ddm.dalyo.com/"
       title = "DDM"
       subtitle = "Dalyo Device Management - Application web pour la gestion de terminaux"
 
     [[params.work.row]]
-      img = "anvil.jpg"
+      img = "anvil.png"
       alt = "anvil.dalyo.com screenshot"
       url = "https://anvil.dalyo.com/"
       title = "Anvil"
@@ -108,13 +108,13 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       quote = "&ldquo;Antoine est en alternance chez Penbase. Il a intégré l'équipe de développement Web. Il participe au développement d'un outil interne basé sur le framework Symfony. Ses connaissances en Php/Html/JS lui permette d'intervenir sur d'autres projets Web. Antoine est un développeur très motivé et s'est très facilement intégré au sein de l'équipe.&rdquo;"
       person = '<a href="https://www.linkedin.com/in/jeanbort/" target="_blank">Jean Bort</a> <span class="subtext">Chef de projet/Tuteur pour alternance et stage dans Penbase</span>'
-      img = "penbase.jpg"
+      img = "penbase.png"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Antoine est en alternance chez Penbase. Il a intégré l'équipe de développement Web. Il participe au développement d'un outil interne basé sur le framework Symfony. Ses connaissances en Php/Html/JS lui permette d'intervenir sur d'autres projets Web. Antoine est un développeur très motivé et s'est très facilement intégré au sein de l'équipe.&rdquo;"
       person = '<a href="https://www.linkedin.com/in/nicolas-gagean-8184a7a2/" target="_blank">Nicolas Gagean</a> <span class="subtext">Directeur commercial dans Penbase</span>'
-      img = "penbase.jpg"
+      img = "penbase.png"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
 
   #[params.testimonials.video]
@@ -143,7 +143,7 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Musique"
       description = "Je joue de la guitare depuis plus de 5 ans."
-      icon = "icon-cup"
+      icon = "icon-music"
 
     [[params.services.item]]
       title = "Sports"
@@ -160,7 +160,7 @@ theme = "hugo-elate-theme"
       name = "Penbase"
       position = "Développeur web - Symfony 3"
       description = "Développement, déploiement et maintenance d'une application web <a href="https://anvil.dalyo.com/" target="_blank">Anvil</a> avec le framework PHP **Symfony**. *2 ans d'alternance*."
-      img = "penbase.jpg"
+      img = "penbase.png"
       alt = "Logo Penbase"
       social = [
         ["icon-twitter", "https://twitter.com/penbase"],
@@ -173,7 +173,7 @@ theme = "hugo-elate-theme"
       name = "Penbase"
       position = "Développeur web PHP"
       description = "Maintenance d'applications web <a href="https://dati.dalyo.com/" target="_blank">Dalyo DATI</a> et <a href="https://ddm.dalyo.com/" target="_blank">DDM</a>. *2 fois pour job d'été*."
-      img = "penbase.jpg"
+      img = "penbase.png"
       alt = "Logo Penbase"
       social = [
         ["icon-twitter", "https://twitter.com/penbase"],
@@ -186,7 +186,7 @@ theme = "hugo-elate-theme"
       name = "Penbase"
       position = "Développeur web PHP"
       description = "Conception, développement et déploiement d'applications web <a href="https://dati.dalyo.com/" target="_blank">Dalyo DATI</a> et <a href="https://ddm.dalyo.com/" target="_blank">DDM</a> avec du **PHP** et **MySQL**. *Stagiaire pour fin d'étude*."
-      img = "penbase.jpg"
+      img = "penbase.png"
       alt = "Logo Penbase"
       social = [
         ["icon-twitter", "https://twitter.com/penbase"],
@@ -254,7 +254,7 @@ theme = "hugo-elate-theme"
     copyright = '&copy; Antoine Nguyen. All Rights Reserved.<br>Built with <a href="https://gohugo.io/">Hugo</a>. Stock photos from <a href="https://www.pexels.com">Pexels</a>. Template &copy; Elate <a href="http://freehtml5.co/" target="_blank">Free HTML5</a>. Hugo port by <a href="https://github.com/saey55" target="_blank">saey55</a>.'
     links = [
         ["icon-github", "https://github.com/NguyenAntoine"],
-        #["icon-twitter", "https://twitter.com/thomas_sauvajon"],
-        #["icon-facebook", "https://www.facebook.com/sauvajlol"],
+        #["icon-twitter", "https://twitter.com/NguyenAntoine"],
+        #["icon-facebook", "https://www.facebook.com/NguyenAntoine"],
         ["icon-linkedin", "https://linkedin.com/in/nguyen-antoine"]
       ]
