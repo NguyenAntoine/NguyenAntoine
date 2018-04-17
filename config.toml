@@ -1,12 +1,12 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "nguyenantoine.github.io"
 title = "Antoine Nguyen - Développeur web"
 languageCode = "fr-fr"
 theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom1.css"]
 
   # Meta
   author = "Antoine Nguyen"
@@ -47,57 +47,51 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Passionate reader"
-    description = 'From History, biographies, Science to "classicals", technology and thrillers, I read about 50 books per year.'
-    url = "https://www.goodreads.com/user/show/71319762-thomas-sauvajon"
-    button = "Goodreads profile"
+    title = "Gestion de projet"
+    description = "De la conception d'une solution applicative à l'analyse des besoins, je peux construire un projet que ce soit avec un suivi itératif avec les méthodes Agiles ou que ce soit avec des spécifications dans un cahier des charges."
     icon = "icon-book-open"
-    img = "library.jpg"
+    img = "management.jpg"
 
   [[params.intro.item]]
-    title = "Technology enthusiast"
-    description = "Proactive learning and technology watch is of utmost importance in tech; that's why I am subscribed to newsletters, blogs, Twitter accounts and spend several hours a week reading about new and innovative stuff."
-    url = "https://stackshare.io/tsauvajon"
-    icon = "icon-puzzle"
-    button = "Stackshare profile"
-    img = "neons.jpg"
-
-  [[params.intro.item]]
-    title = "Active learner"
-    description = "The best way to learn something is to try it. That's why I've built tens of weekend projects to try out technologies and concepts."
-    url = "https://github.com/tsauvajon"
-    button = "Github profile"
-    icon = "icon-chemistry"
+    title = "Web"
+    description = "En constante apprentissage, je suis passionné par les technologies du web. Je me concentre sur des développements avec des frameworks PHP comme Symfony, mais aussi avec des frameworks JavaScript comme VueJS."
+    icon = "icon-docs"
     img = "coding.jpg"
+
+  [[params.intro.item]]
+    title = "DevOps"
+    description = "En fluidifiant les développements et les tests, je sais mettre en place de l'intégration continue, avec Jenkins, avec un environnement similaire en production en utilisant la technologie des conteneurs Docker."
+    icon = "icon-screen-desktop"
+    img = "devops.jpg"
 
 
   # Projects section
   [params.work]
     enable = true
     title = "Projets"
-    description = 'Tous mes projets sont sur ma <a href="https://github.com/nguyenantoine">page GitHub</a>.'
-    footertext = '&#42; closed source'
+    description = 'Tous mes projets sont utilisés et sont en production.'
+    footertext = '&#42; sources privés'
 
     [[params.work.row]]
       img = "dati.png"
       alt = "dati.dalyo.com screenshot"
       url = "https://dati.dalyo.com/"
-      title = "Dalyo DATI"
-      subtitle = "Application web pour la gestion d'alerte pour les travailleurs isolés"
+      title = "Dalyo DATI*"
+      subtitle = "Application web pour la gestion d'alertes pour les travailleurs isolés"
 
     [[params.work.row]]
       img = "ddm.png"
       alt = "ddm.dalyo.com screenshot"
       url = "https://ddm.dalyo.com/"
-      title = "DDM"
-      subtitle = "Dalyo Device Management - Application web pour la gestion de terminaux"
+      title = "Dalyo Device Manager*"
+      subtitle = "Application web pour la gestion de terminaux"
 
     [[params.work.row]]
       img = "anvil.png"
       alt = "anvil.dalyo.com screenshot"
       url = "https://anvil.dalyo.com/"
-      title = "Anvil"
-      subtitle = "Application web pour la gestion de fichier de configuration mobile"
+      title = "Anvil*"
+      subtitle = "Application web pour la gestion de fichiers de configuration mobile"
 
   # Achievements section
   [params.testimonials]
@@ -112,7 +106,7 @@ theme = "hugo-elate-theme"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Antoine est en alternance chez Penbase. Il a intégré l'équipe de développement Web. Il participe au développement d'un outil interne basé sur le framework Symfony. Ses connaissances en Php/Html/JS lui permette d'intervenir sur d'autres projets Web. Antoine est un développeur très motivé et s'est très facilement intégré au sein de l'équipe.&rdquo;"
+      quote = "&ldquo;Antoine est en alternance chez Penbase. Il a intégré l'équipe de développement Web.  Antoine est un développeur très motivé et s'est très facilement intégré au sein de l'équipe.&rdquo;"
       person = '<a href="https://www.linkedin.com/in/nicolas-gagean-8184a7a2/" target="_blank">Nicolas Gagean</a> <span class="subtext">Directeur commercial dans Penbase</span>'
       img = "penbase.png"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
@@ -132,23 +126,23 @@ theme = "hugo-elate-theme"
     
     [[params.services.item]]
       title = "Voyages"
-      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, aux Pays-Basn, au Vietnam, en Thailande et à Taïwan."      
+      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, aux Pays-Bas, au Vietnam, en Thailande et à Taïwan."      
       icon = "icon-map"
     
     [[params.services.item]]
       title = "Cartomagie"
-      description = "Avec des amis ou pour la famille, je fais souvent des tours de magies de proximité avec des cartes. C'est ce qu'on appelle le close-up."
-      icon = "icon-people"
-
-    [[params.services.item]]
-      title = "Musique"
-      description = "Je joue de la guitare depuis plus de 5 ans."
-      icon = "icon-music"
+      description = "Avec des amis ou pour la famille, je fais souvent des tours de magies de proximité avec des cartes. C'est ce qu'on appelle le close-up.<br><br>"
+      icon = "icon-magic-wand"
 
     [[params.services.item]]
       title = "Sports"
       description = "Je pratique des sports collectifs avec des amis de temps en temps comme le basket, le football, mais aussi des sports individuels comme le tennis, la natation et la musculation."      
       icon = "icon-badge"
+
+    [[params.services.item]]
+      title = "Musique"
+      description = "Je joue de la guitare depuis plus de 5 ans."
+      icon = "icon-music"
 
   # Jobs section
   [params.about]
@@ -185,7 +179,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Penbase"
       position = "Développeur web PHP"
-      description = "Conception, développement et déploiement d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a> avec du **PHP** et **MySQL**. *Stagiaire pour fin d'étude*."
+      description = "Conception, développement et déploiement d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a> avec du **PHP** et **MySQL**. *Stage de fin d'étude*."
       img = "penbase.png"
       alt = "Logo Penbase"
       social = [
@@ -223,6 +217,14 @@ theme = "hugo-elate-theme"
       icon = "icon-graduation"
       from = 1995
       to = 2019
+      interval = 50
+      speed = 2000
+
+    [[params.counters.item]]
+      description = "pays visités"
+      icon = "icon-globe"
+      from = 0
+      to = 9
       interval = 50
       speed = 2000
 
