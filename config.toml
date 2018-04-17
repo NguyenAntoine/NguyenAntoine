@@ -159,7 +159,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Penbase"
       position = "Développeur web - Symfony 3"
-      description = "Développement, déploiement et maintenance d'une application web <a href="https://anvil.dalyo.com/" target="_blank">Anvil</a> avec le framework PHP **Symfony**. *2 ans d'alternance*."
+      description = "Développement, déploiement et maintenance d'une application web <a href=\"https://anvil.dalyo.com/\" target=\"_blank\">Anvil</a> avec le framework PHP **Symfony**. *2 ans d'alternance*."
       img = "penbase.png"
       alt = "Logo Penbase"
       social = [
@@ -172,7 +172,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Penbase"
       position = "Développeur web PHP"
-      description = "Maintenance d'applications web <a href="https://dati.dalyo.com/" target="_blank">Dalyo DATI</a> et <a href="https://ddm.dalyo.com/" target="_blank">DDM</a>. *2 fois pour job d'été*."
+      description = "Maintenance d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a>. *2 fois pour job d'été*."
       img = "penbase.png"
       alt = "Logo Penbase"
       social = [
@@ -185,7 +185,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Penbase"
       position = "Développeur web PHP"
-      description = "Conception, développement et déploiement d'applications web <a href="https://dati.dalyo.com/" target="_blank">Dalyo DATI</a> et <a href="https://ddm.dalyo.com/" target="_blank">DDM</a> avec du **PHP** et **MySQL**. *Stagiaire pour fin d'étude*."
+      description = "Conception, développement et déploiement d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a> avec du **PHP** et **MySQL**. *Stagiaire pour fin d'étude*."
       img = "penbase.png"
       alt = "Logo Penbase"
       social = [
