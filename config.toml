@@ -5,7 +5,7 @@ languageCode = "fr-fr"
 theme = "hugo-elate-theme"
 
 [params]
-  
+
   custom_css = ["css/custom1.css"]
 
   # Meta
@@ -24,7 +24,7 @@ theme = "hugo-elate-theme"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     [[menu.prepend]]
      url = "https://www.linkedin.com/in/nguyen-antoine/"
@@ -36,12 +36,12 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "Développeur web"
     subtitle = "Je me suis passioné pour le développement web il y a peu et je suis en constante évolution grâce à mon envie d'apprendre et à ma motivation. Je suis autonome et je suis à l'écoute des actualités du monde informatique ainsi que son évolution."
- 
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -84,7 +84,7 @@ theme = "hugo-elate-theme"
       alt = "ddm.dalyo.com screenshot"
       url = "https://ddm.dalyo.com/"
       title = "Dalyo Device Manager*"
-      subtitle = "Application web pour la gestion de terminaux"
+      subtitle = "Application web pour la gestion de terminaux des clients Penbase"
 
     [[params.work.row]]
       img = "anvil.png"
@@ -92,6 +92,27 @@ theme = "hugo-elate-theme"
       url = "https://anvil.dalyo.com/"
       title = "Anvil*"
       subtitle = "Application web pour la gestion de fichiers de configuration mobile"
+
+    [[params.work.row]]
+      img = "dch.png"
+      alt = "dch.dalyo.com screenshot"
+      url = "https://dch.dalyo.com/"
+      title = "Dalyo Customer Hub*"
+      subtitle = "Application web pour la gestion des informations clients"
+
+    [[params.work.row]]
+      img = "bambou.png"
+      alt = "bambou.nguyenantoine.com screenshot"
+      url = "https://bambou.nguyenantoine.com/"
+      title = "Le Bambou"
+      subtitle = "Site vitrine pour le traiteur Le Bambou à Montpellier"
+
+    [[params.work.row]]
+      img = "JSM.png"
+      alt = "jeusetetmatch.nguyenantoine.com screenshot"
+      url = "https://jeusetetmatch.nguyenantoine.com/"
+      title = "Jeu Set et Match"
+      subtitle = "Application web de tennis pour le scorage de points en temps réel"
 
   # Achievements section
   [params.testimonials]
@@ -116,19 +137,19 @@ theme = "hugo-elate-theme"
   #  title = "Blockchain hackaton"
   #  icon = "icon-play2"
   #  url = "https://www.youtube.com/watch?v=K1XOHtFVnQgk"
-   
+
 
   # Hobbies section
   [params.services]
     enable = true
     title = "Loisirs"
     description = "Avoir des moments libres est rafraîchissant"
-    
+
     [[params.services.item]]
       title = "Voyages"
-      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, aux Pays-Bas, au Vietnam, en Thailande et à Taïwan."      
+      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, aux Pays-Bas, au Vietnam, en Thailande et à Taïwan."
       icon = "icon-map"
-    
+
     [[params.services.item]]
       title = "Cartomagie"
       description = "Avec des amis ou pour la famille, je fais souvent des tours de magies de proximité avec des cartes. C'est ce qu'on appelle le close-up.<br><br>"
@@ -136,7 +157,7 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Sports"
-      description = "Je pratique des sports collectifs avec des amis de temps en temps comme le basket, le football, mais aussi des sports individuels comme le tennis, la natation et la musculation."      
+      description = "Je pratique des sports collectifs avec des amis de temps en temps comme le basket, le football, mais aussi des sports individuels comme le tennis, la natation et la musculation."
       icon = "icon-badge"
 
     [[params.services.item]]
@@ -235,7 +256,7 @@ theme = "hugo-elate-theme"
     form = true
     title = "Me contacter"
     description = ""
-    
+
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "34000 Montpellier (France)"],
