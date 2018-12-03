@@ -12,7 +12,7 @@
 			</div>
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 to-animate">
-					<h3>Contact Info</h3>
+					<h3>Informations</h3>
 					<ul class="fh5co-contact-info">
 					{{ range .Site.Params.contact.details }}
 						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
@@ -21,7 +21,7 @@
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
-					<h3>Contact Form</h3>
+					<h3>Me contacter</h3>
 					<form method="post" action="//formspree.io/antoine.ngu@outlook.fr">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
@@ -55,7 +55,4 @@
 				{{ end }}
 			</div>
 		</div>
-		{{ if .Site.Params.contact.map }}
-        	<div id="map" class="to-animate"></div>
-		{{ end }}
 	</section>
