@@ -262,7 +262,7 @@ theme = "hugo-elate-theme"
         ["icon-home", "34000 Montpellier (France)"],
         ["icon-phone", "(33) 6 10 76 27 02"],
         ["icon-envelope", "antoine.ngu@outlook.fr"],
-        ["icon-globe", '<a href="https://nguyenantoine.github.io/" target="_blank">nguyenantoine.github.io</a>']
+        ["icon-globe", '<a href="https://nguyenantoine.com/" target="_blank">nguyenantoine.github.io</a>']
       ]
 
     name = "Nom"
