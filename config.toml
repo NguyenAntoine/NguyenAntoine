@@ -127,7 +127,7 @@ theme = "hugo-elate-theme"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Antoine est en alternance chez Penbase. Il a intégré l'équipe de développement Web.  Antoine est un développeur très motivé et s'est très facilement intégré au sein de l'équipe.&rdquo;"
+      quote = "&ldquo;Antoine travaille chez Penbase en alternance, comme développeur Web. Il a participé à l'élaboration du produit Dalyo DATI, une application mobile de PTI/DATI, en développant l'interface web permettant de gérer la solution. Ses qualités lui ont permis de s'intégrer rapidement à l'équipe : motivé, à l'écoute, autonome, compétent. Antoine est en capacité de conduire un projet innovant et de mettre en oeuvre de nouvelles fonctionnalités à partir de spécifications fonctionnelles.&rdquo;"
       person = '<a href="https://www.linkedin.com/in/nicolas-gagean-8184a7a2/" target="_blank">Nicolas Gagean</a> <span class="subtext">Directeur commercial dans Penbase</span>'
       img = "penbase.png"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
