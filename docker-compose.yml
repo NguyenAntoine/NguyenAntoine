@@ -1,0 +1,18 @@
+version: "2"
+services:
+  web:
+    image: portfolio-nguyen-antoine
+    expose:
+      - 80
+    networks:
+      - default
+      - reverse-proxy
+    restart: always
+    environment:
+      - VIRTUAL_HOST=nguyenantoine.com
+      - LETSENCRYPT_HOST=nguyenantoine.com
+      - LETSENCRYPT_EMAIL=antoine.ngu@outlook.fr
+networks:
+  reverse-proxy:
+    external:
+      name: reverse-proxy
