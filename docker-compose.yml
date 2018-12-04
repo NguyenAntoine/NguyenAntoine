@@ -9,8 +9,8 @@ services:
       - reverse-proxy
     restart: always
     environment:
-      - VIRTUAL_HOST=nguyenantoine.com
-      - LETSENCRYPT_HOST=nguyenantoine.com
+      - VIRTUAL_HOST=www.nguyenantoine.com,nguyenantoine.com
+      - LETSENCRYPT_HOST=www.nguyenantoine.com,nguyenantoine.com
       - LETSENCRYPT_EMAIL=antoine.ngu@outlook.fr
 networks:
   reverse-proxy:
