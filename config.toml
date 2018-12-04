@@ -147,7 +147,7 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Voyages"
-      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, aux Pays-Bas, au Vietnam, en Thailande et à Taïwan."
+      description = "J'adore voyager partout dans le monde pour visiter les différentes cultures. J'ai voyagé aux États-Unis, en Angleterre, en Espagne, en Irlande, en Italie, en Allemagne, aux Pays-Bas, au Vietnam, en Thailande et à Taïwan."
       icon = "icon-map"
 
     [[params.services.item]]
@@ -245,7 +245,7 @@ theme = "hugo-elate-theme"
       description = "pays visités"
       icon = "icon-globe"
       from = 0
-      to = 9
+      to = 10
       interval = 50
       speed = 2000
 
