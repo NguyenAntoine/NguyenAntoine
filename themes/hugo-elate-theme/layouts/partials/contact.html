@@ -13,11 +13,16 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 to-animate">
 					<h3>Informations</h3>
-					<ul class="fh5co-contact-info">
-					{{ range .Site.Params.contact.details }}
-						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
-					{{ end }}
-					</ul>
+                    <div class="fh5co-person img-rounded">
+                        <figure>
+					        <img class="text-center" src="images/antoine.jpg" alt="Antoine Nguyen">
+                        </figure>
+                        <ul class="fh5co-contact-info">
+                            {{ range .Site.Params.contact.details }}
+                            <li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
@@ -29,25 +34,25 @@
 						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
-					<div class="form-group ">
+					<div class="form-group">
 						{{ with .Site.Params.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
 						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
 						{{ end }}
 					</div>
-					<div class="form-group ">
+					<div class="form-group">
 						{{ with .Site.Params.contact.phone }}
 						<label for="phone" class="sr-only">{{ . | markdownify }}</label>
 						<input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
-					<div class="form-group ">
+					<div class="form-group">
 						{{ with .Site.Params.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
 						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
-					<div class="form-group ">
+					<div class="form-group text-center">
 						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
 					</div>
 					</form>

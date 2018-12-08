@@ -60,7 +60,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "DevOps"
-    description = "En fluidifiant les développements et les tests, je sais mettre en place de l'intégration continue, avec Jenkins, avec un environnement similaire en production en utilisant la technologie des conteneurs Docker."
+    description = "En fluidifiant les développements et les tests, je sais mettre en place de l'intégration continue sur des applications, avec Jenkins, avec un environnement similaire en production en utilisant les conteneurs Docker."
     icon = "icon-screen-desktop"
     img = "devops.jpg"
 
@@ -152,7 +152,7 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Cartomagie"
-      description = "Avec des amis ou pour la famille, je fais souvent des tours de magies de proximité avec des cartes. C'est ce qu'on appelle le close-up.<br><br>"
+      description = "Avec des amis ou pour la famille, je fais souvent des tours de magies de proximité avec des cartes. C'est ce qu'on appelle le close-up.<br><br><br>"
       icon = "icon-magic-wand"
 
     [[params.services.item]]

@@ -2,4 +2,8 @@
   .mb-md-4 {
     margin-bottom: 100px;
   }
+
+  .float-less {
+    float: initial;
+  }
 }
