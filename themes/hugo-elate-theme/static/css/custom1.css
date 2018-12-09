@@ -2,7 +2,9 @@
   .mb-md-4 {
     margin-bottom: 100px;
   }
+}
 
+@media (max-width: 991px) {
   .float-less {
     float: initial;
   }
