@@ -7,11 +7,9 @@ services:
     networks:
       - default
       - reverse-proxy
+    env_file:
+      - .env
     restart: always
-    environment:
-      - VIRTUAL_HOST=www.nguyenantoine.com,nguyenantoine.com
-      - LETSENCRYPT_HOST=www.nguyenantoine.com,nguyenantoine.com
-      - LETSENCRYPT_EMAIL=antoine.ngu@outlook.fr
 networks:
   reverse-proxy:
     external:
