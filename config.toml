@@ -210,18 +210,18 @@ theme = "hugo-elate-theme"
         ["icon-globe", "https://www.penbase.com"]
       ]
 
-    [[params.about.item]]
-      name = "Penbase"
-      position = "Développeur web PHP"
-      description = "Conception, développement et déploiement d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a> avec du **PHP** et **MySQL**. *Stage de fin d'étude*."
-      img = "penbase.png"
-      alt = "Logo Penbase"
-      social = [
-        ["icon-twitter", "https://twitter.com/penbase"],
-        ["icon-facebook", "https://www.facebook.com/Penbase/"],
-        ["icon-linkedin", "https://www.linkedin.com/company/penbase/"],
-        ["icon-globe", "https://www.penbase.com"]
-      ]
+    # [[params.about.item]]
+    #   name = "Penbase"
+    #   position = "Développeur web PHP"
+    #   description = "Conception, développement et déploiement d'applications web <a href=\"https://dati.dalyo.com/\" target=\"_blank\">Dalyo DATI</a> et <a href=\"https://ddm.dalyo.com/\" target=\"_blank\">DDM</a> avec du **PHP** et **MySQL**. *Stage de fin d'étude*."
+    #   img = "penbase.png"
+    #   alt = "Logo Penbase"
+    #   social = [
+    #     ["icon-twitter", "https://twitter.com/penbase"],
+    #     ["icon-facebook", "https://www.facebook.com/Penbase/"],
+    #     ["icon-linkedin", "https://www.linkedin.com/company/penbase/"],
+    #     ["icon-globe", "https://www.penbase.com"]
+    #   ]
 
 
   # Counters section
