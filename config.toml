@@ -242,7 +242,7 @@ theme = "hugo-elate-theme"
       description = "années d'expérience professionnelle"
       icon = "icon-briefcase"
       from = 0
-      to = 2
+      to = 3
       interval = 50
       speed = 2000
 
