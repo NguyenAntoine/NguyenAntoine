@@ -54,7 +54,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Web"
-    description = "En constante apprentissage, je suis passionné par les technologies du web. Je me concentre sur des développements avec des frameworks Backend (PHP/Symfony et Java/Springboot), mais aussi avec des frameworks JavaScript comme Angular."
+    description = "En constante apprentissage, je suis passionné par le dev web. Je me concentre sur des développements avec des frameworks Backend (PHP/Symfony et Java/Springboot), mais aussi avec des frameworks JavaScript comme Angular."
     icon = "icon-docs"
     img = "coding.jpg"
 
