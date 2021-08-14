@@ -54,7 +54,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Web"
-    description = "En constante apprentissage, je suis passionné par le dev web. Je me concentre sur des développements avec des frameworks Backend (PHP/Symfony et Java/Springboot), mais aussi avec des frameworks JavaScript comme Angular."
+    description = "En constante apprentissage, je suis passionné par le dev web. Je me concentre sur des frameworks Backend (PHP/Symfony et Java/Kotlin/Springboot), mais aussi sur des frameworks JavaScript comme Angular."
     icon = "icon-docs"
     img = "coding.jpg"
 
@@ -131,6 +131,12 @@ theme = "hugo-elate-theme"
       person = '<a href="https://www.linkedin.com/in/nicolas-gagean-8184a7a2/" target="_blank">Nicolas Gagean</a> <span class="subtext">Directeur commercial dans Penbase</span>'
       img = "penbase.png"
       alt = "Penbase, éditeur de solutions métiers pour mobiles"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Antoine est quelqu'un de passionné, il aime ce qu'il fait et est très consciencieux. Il adore découvrir de nouvelles technos ou de nouveaux langages. Ses facultés d'adaptation font qu'il est très vite opérationnel même dans des environnements nouveaux. A côté de ça, il est très sympathique et ouvert d’esprit Il s’est très vite intégré à l’équipe c’était un réel plaisir de travailler à ses côtés et j’espère qu’on aura l’opportunité de travailler ensemble à nouveau dans le futur.&rdquo;"
+      person = '<a href="https://www.linkedin.com/in/thibaudsanchez/" target="_blank">Thibaud Sanchez</a> <span class="subtext">Software Engineer dans Emvista</span>'
+      img = "emvista.jpg"
+      alt = "Emvista"
 
   #[params.testimonials.video]
   #  enable = true
@@ -255,7 +261,7 @@ theme = "hugo-elate-theme"
       description = "années d'expérience professionnelle"
       icon = "icon-briefcase"
       from = 0
-      to = 3
+      to = 4
       interval = 50
       speed = 2000
 
