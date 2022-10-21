@@ -73,6 +73,13 @@ theme = "hugo-elate-theme"
     footertext = '&#42; sources privés'
 
     [[params.work.row]]
+      img = "playplay.png"
+      alt = "playplay.com screenshot"
+      url = "https://playplay.com/"
+      title = "Playplay*"
+      subtitle = "Plateforme web pour la création de vidéo simple et rapide"
+
+    [[params.work.row]]
       img = "pss.png"
       alt = "pss.prevyo.com screenshot"
       url = "https://pss.prevyo.com/"
@@ -85,20 +92,6 @@ theme = "hugo-elate-theme"
       url = "https://dati.dalyo.com/"
       title = "Dalyo DATI*"
       subtitle = "Application web pour la gestion d'alertes pour les travailleurs isolés"
-
-    [[params.work.row]]
-      img = "anvil.png"
-      alt = "anvil.dalyo.com screenshot"
-      url = "https://anvil.dalyo.com/"
-      title = "Anvil*"
-      subtitle = "Application web pour la gestion de fichiers de configuration mobile"
-
-    [[params.work.row]]
-      img = "dch.png"
-      alt = "dch.dalyo.com screenshot"
-      url = "https://dch.dalyo.com/"
-      title = "Dalyo Customer Hub*"
-      subtitle = "Application web pour la gestion des informations clients"
 
     [[params.work.row]]
       img = "bambou.png"
@@ -178,6 +171,19 @@ theme = "hugo-elate-theme"
     description = "Mes expériences professionnelles"
 
     [[params.about.item]]
+      name = "Playplay"
+      position = "Développeur Fullstack"
+      description = "Développement avec le framework PHP **Laravel** côté back et le framework Javascript VueJS côté front. *Actuel*."
+      img = "playplay.jpg"
+      alt = "Logo Playplay"
+      social = [
+        ["icon-twitter", "https://twitter.com/playplayvideo"],
+        ["icon-facebook", "https://www.facebook.com/PlayPlayVideo/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/playplay/mycompany/"],
+        ["icon-globe", "https://playplay.com/"]
+      ]
+
+    [[params.about.item]]
       name = "Emvista"
       position = "Développeur Fullstack"
       description = "Réalisation de plusieurs applications avec le framework Java **Spring boot** côté back et le framework Javascript Angular côté front. Développement d'une application Ionic 3 et déploiement sur AppStore et GoogleStore. *1 an*."
@@ -190,18 +196,18 @@ theme = "hugo-elate-theme"
         ["icon-globe", "https://www.emvista.com/"]
       ]
 
-    [[params.about.item]]
-      name = "Apside"
-      position = "Ingénieur d'études et développement"
-      description = "Réalisation d'une application pour la gestion de tournoi avec le framework Java **Spring boot** côté back et le framework Javascript Angular côté front. Mission d'audit pour un projet Angular chez Emvista *6 mois*."
-      img = "apside.png"
-      alt = "Logo Apside"
-      social = [
-        ["icon-twitter", "https://twitter.com/apsidegroupe"],
-        ["icon-facebook", "https://www.facebook.com/ApsideGroupe/"],
-        ["icon-linkedin", "https://www.linkedin.com/company/apside/"],
-        ["icon-globe", "https://apside.com/"]
-      ]
+#     [[params.about.item]]
+#       name = "Apside"
+#       position = "Ingénieur d'études et développement"
+#       description = "Réalisation d'une application pour la gestion de tournoi avec le framework Java **Spring boot** côté back et le framework Javascript Angular côté front. Mission d'audit pour un projet Angular chez Emvista *6 mois*."
+#       img = "apside.png"
+#       alt = "Logo Apside"
+#       social = [
+#         ["icon-twitter", "https://twitter.com/apsidegroupe"],
+#         ["icon-facebook", "https://www.facebook.com/ApsideGroupe/"],
+#         ["icon-linkedin", "https://www.linkedin.com/company/apside/"],
+#         ["icon-globe", "https://apside.com/"]
+#       ]
 
     [[params.about.item]]
       name = "Penbase"
@@ -253,7 +259,7 @@ theme = "hugo-elate-theme"
       description = "ans"
       icon = "icon-present"
       from = 0
-      to = 26
+      to = 27
       interval = 50
       speed = 2000
 
@@ -261,7 +267,7 @@ theme = "hugo-elate-theme"
       description = "années d'expérience professionnelle"
       icon = "icon-briefcase"
       from = 0
-      to = 4
+      to = 5
       interval = 50
       speed = 2000
 
@@ -292,7 +298,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "34000 Montpellier (France)"],
-        ["icon-phone", "(33) 6 10 76 27 02"],
+#         ["icon-phone", "(33) 6 10 76 27 02"],
         ["icon-envelope", "antoine.ngu@outlook.fr"],
         ["icon-link", '<a href="https://linkedin.com/in/nguyen-antoine" target="_blank">https://linkedin.com/in/nguyen-antoine</a>']
       ]
