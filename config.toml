@@ -94,6 +94,13 @@ theme = "hugo-elate-theme"
       subtitle = "Application web pour la gestion d'alertes pour les travailleurs isolés"
 
     [[params.work.row]]
+      img = "anvil.png"
+      alt = "anvil.dalyo.com screenshot"
+      url = "https://anvil.dalyo.com/"
+      title = "Anvil*"
+      subtitle = "Application web pour la gestion de fichiers de configuration mobile"
+
+    [[params.work.row]]
       img = "bambou.png"
       alt = "bambou.nguyenantoine.com screenshot"
       url = "https://bambou.nguyenantoine.com/"
@@ -173,7 +180,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Playplay"
       position = "Développeur Fullstack"
-      description = "Développement avec le framework PHP **Laravel** côté back et le framework Javascript VueJS côté front. *Actuel*."
+      description = "Développement avec le framework PHP **Laravel** côté back et le framework Javascript VueJS côté front. En Full-remote *Depuis 2021*."
       img = "playplay.jpg"
       alt = "Logo Playplay"
       social = [
