@@ -1,15 +1,19 @@
-version: "2"
 services:
   web:
     build: .
-    image: portfolio-nguyen-antoine
+    image: portfolio-nguyen-antoine:latest
+    container_name: portfolio
+    restart: always
+    expose:
+      - 80
+    environment:
+      - VIRTUAL_HOST=${VIRTUAL_HOST}
+      - LETSENCRYPT_HOST=${LETSENCRYPT_HOST}
+      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
     networks:
       - default
       - reverse-proxy
-    env_file:
-      - .env
-    restart: always
+
 networks:
   reverse-proxy:
-    external:
-      name: reverse-proxy
+    external: true
