@@ -13,17 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Antoine Nguyen - Développeur Web',
-  description: 'Portfolio professionnel d\'Antoine Nguyen. Développeur Fullstack passionné par le web et l\'innovation.',
-  keywords: 'développeur web, fullstack, laravel, vue.js, symfony, java, spring boot',
-  authors: [{ name: 'Antoine Nguyen' }],
+  title: "Antoine Nguyen - Senior Developer Full-stack | Portfolio & Projets SaaS",
+  description: "Senior Developer Full-stack avec depuis 2017 d'expérience. Expert PHP/Laravel, Java/Spring Boot, Vue.js, Angular. Spécialiste architecture logicielle, DevOps, SaaS. Projets en production avec millions d'utilisateurs.",
+  keywords: "développeur fullstack, senior developer, laravel, vue.js, spring boot, angular, devops, docker, jenkins, github actions, sonarqube, architecture logicielle, SaaS, microservices, DDD, TDD, php, java",
+  authors: [{ name: "Antoine Nguyen" }],
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
-    url: 'https://nguyenantoine.com',
-    siteName: 'Antoine Nguyen Portfolio',
-    title: 'Antoine Nguyen - Développeur Web',
-    description: 'Portfolio professionnel d\'Antoine Nguyen. Développeur Fullstack passionné par le web et l\'innovation.',
+    type: "website",
+    locale: "fr_FR",
+    url: "https://nguyenantoine.com",
+    siteName: "Antoine Nguyen - Senior Developer Full-stack",
+    title: "Antoine Nguyen - Senior Developer Full-stack | depuis 2017 en PHP, Laravel, Vue.js",
+    description: "Portfolio de Antoine Nguyen. Senior Developer Full-stack expert en architecture logicielle, DevOps et SaaS. Spécialiste Laravel, Vue.js, Spring Boot. Projets en production.",
   },
 };
 

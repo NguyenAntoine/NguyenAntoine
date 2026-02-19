@@ -2,21 +2,21 @@ import { Skill } from '@/types';
 
 export const skills: Skill[] = [
   {
-    id: 'management',
-    title: 'Gestion de projet',
-    description: 'De la conception d\'une solution applicative à l\'analyse des besoins, je peux construire un projet que ce soit avec un suivi itératif avec les méthodes Agiles ou que ce soit avec des spécifications dans un cahier des charges.',
-    icon: 'BookOpen',
+    id: "management",
+    title: "Gestion de Projet & Architecture",
+    description: "Je résous les problèmes de bout en bout. De la compréhension des besoins à la livraison en production. À l'aise avec les équipes agiles et les défis techniques complexes. Architecture logicielle, DDD/TDD et approches traditionnelles.",
+    icon: "BookOpen",
   },
   {
-    id: 'web',
-    title: 'Web',
-    description: 'En constante apprentissage, je suis passionné par le dev web. Je me concentre sur des frameworks Backend (PHP/Symfony et Java/Kotlin/Spring Boot), mais aussi sur des frameworks JavaScript comme Angular et Vue.js.',
-    icon: 'Code',
+    id: "web",
+    title: "Développement Web Full-stack",
+    description: "Je crée des applications web rapides et fiables. Travail full-stack avec PHP/Laravel, Vue.js, Angular et Java/Spring Boot. De la conception architecturale au déploiement en production. Bases de données: MySQL, PostgreSQL, MongoDB. APIs REST et microservices.",
+    icon: "Code",
   },
   {
-    id: 'devops',
-    title: 'DevOps',
-    description: 'En fluidifiant les développements et les tests, je sais mettre en place de l\'intégration continue sur des applications, avec Jenkins, avec un environnement similaire en production en utilisant les conteneurs Docker.',
-    icon: 'Server',
+    id: "devops",
+    title: "DevOps & Infrastructure",
+    description: "J'aide les équipes à livrer vite et fiablement. Pipelines CI/CD avancés (Jenkins, GitHub Actions), containerisation avec Docker, infrastructure cloud. Terraform, Ansible, déploiement AppStore & Google Play. Simplifier la production.",
+    icon: "Server",
   },
 ];

@@ -50,10 +50,10 @@ export function Intro() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Mes compétences
+            Mes Compétences Techniques
           </h2>
           <p className="text-xl text-gray-600">
-            Les domaines dans lesquels j\'excelle
+            Expertise en développement web, gestion de projet et infrastructure DevOps
           </p>
         </motion.div>
 

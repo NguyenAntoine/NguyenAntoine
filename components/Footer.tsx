@@ -9,7 +9,10 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Antoine Nguyen</h3>
             <p className="text-gray-600 mb-4">
-              Développeur Fullstack passionné par le web et l\'innovation.
+              Développeur Full-stack créant des applications web performantes. depuis 2017 d'expérience dans des startups et scale-ups. Passionné par l'apprentissage et l'innovation.
+            </p>
+            <p className="text-gray-600 text-sm">
+              Ouvert aux projets freelance et nouvelles opportunités. Créons quelque chose de bien ensemble.
             </p>
             <div className="flex items-center gap-2 text-gray-600">
               <MapPin size={18} />

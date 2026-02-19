@@ -1,17 +1,18 @@
+version: '3.8'
+
 services:
-  web:
+  portfolio:
     build: .
-    image: portfolio-nguyen-antoine:latest
-    container_name: portfolio
-    restart: always
-    expose:
-      - 80
+    container_name: nguyenantoine-portfolio
+    ports:
+      - "3000:3000"
     environment:
-      - VIRTUAL_HOST=${VIRTUAL_HOST}
-      - LETSENCRYPT_HOST=${LETSENCRYPT_HOST}
-      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+      - NODE_ENV=production
+      - VIRTUAL_HOST=nguyenantoine.com
+      - LETSENCRYPT_HOST=nguyenantoine.com
+      - LETSENCRYPT_EMAIL=antoine.ngu@outlook.fr
+    restart: unless-stopped
     networks:
-      - default
       - reverse-proxy
 
 networks:

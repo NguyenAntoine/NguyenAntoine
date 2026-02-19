@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { jobs } from '@/lib/data/jobs';
 import { Timeline } from '../ui/timeline';
+import { BackgroundBeamsWithCollision } from '../ui/background-beams-with-collision';
 
 export function Jobs() {
   // Transform jobs data to Timeline format
@@ -17,7 +18,7 @@ export function Jobs() {
               {job.position}
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-              {job.startDate}{job.endDate ? ` - ${job.endDate}` : ' - Aujourd\'hui'} • {job.duration}
+              {job.startDate}{job.endDate ? ` - ${job.endDate}` : " - Aujourd'hui"} • {job.duration}
             </p>
           </div>
           {job.isCurrent && (
@@ -58,20 +59,31 @@ export function Jobs() {
   }));
 
   return (
-    <section id="jobs" className="section-padding bg-gray-50">
-      <div className="container-custom">
+    <section id="jobs" className="section-padding relative overflow-hidden">
+      <div
+        className="absolute inset-0 pointer-events-none overflow-hidden"
+        style={{ height: '100%' }}
+      >
+        <BackgroundBeamsWithCollision className="h-full bg-transparent" />
+      </div>
+      <div className="container-custom relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-8"
+          className="text-center mb-8 relative mx-auto w-fit"
+          style={{
+            background: 'transparent',
+            padding: '1.5rem 3rem',
+            pointerEvents: 'none',
+          }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Mes expériences
+            Parcours Professionnel
           </h2>
           <p className="text-xl text-gray-600">
-            Mon parcours professionnel
+            Depuis 2017, de startup à scale-up internationales
           </p>
         </motion.div>
 

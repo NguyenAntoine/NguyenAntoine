@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { counters } from '@/lib/data/contact';
 import * as Icons from 'lucide-react';
@@ -8,24 +8,28 @@ import * as Icons from 'lucide-react';
 type LucideIcon = React.ComponentType<{ size?: number; className?: string }>;
 
 function AnimatedCounter({ value, duration }: { value: number; duration: number }) {
-  const [displayValue, setDisplayValue] = useState(0);
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (latest) => Math.floor(latest));
 
   useEffect(() => {
     const startTime = Date.now();
-    const timer = setInterval(() => {
+    let animationFrame: number;
+
+    const animate = () => {
       const elapsed = Date.now() - startTime;
       const progress = Math.min(elapsed / (duration * 1000), 1);
-      setDisplayValue(Math.floor(progress * value));
+      count.set(progress * value);
 
-      if (progress === 1) {
-        clearInterval(timer);
+      if (progress < 1) {
+        animationFrame = requestAnimationFrame(animate);
       }
-    }, 50);
+    };
 
-    return () => clearInterval(timer);
-  }, [value, duration]);
+    animationFrame = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationFrame);
+  }, [value, duration, count]);
 
-  return <>{displayValue}</>;
+  return <motion.span>{rounded}</motion.span>;
 }
 
 export function Counters() {

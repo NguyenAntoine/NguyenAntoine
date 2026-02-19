@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { projects } from '@/lib/data/projects';
 import { ExternalLink, Lock } from 'lucide-react';
 import { CometCard } from '../ui/comet-card';
+import { Boxes } from '../ui/background-boxes';
 
 export function Projects() {
   const containerVariants = {
@@ -27,20 +28,29 @@ export function Projects() {
   };
 
   return (
-    <section id="projects" className="section-padding bg-gray-50">
+    <section id="projects" className="section-padding relative overflow-hidden">
+      <Boxes />
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-16 relative mx-auto w-fit"
+          style={{
+            background: 'rgba(255,255,255,0.7)',
+            backdropFilter: 'blur(8px)',
+            padding: '1.5rem 3rem',
+            borderRadius: '9999px',
+            boxShadow: '0 0 0 20px rgba(255,255,255,0.5), 0 0 0 40px rgba(255,255,255,0.25), 0 0 0 60px rgba(255,255,255,0.1)',
+            pointerEvents: 'none',
+          }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Mes projets
+            Projets en Production
           </h2>
           <p className="text-xl text-gray-600">
-            Tous mes projets sont utilisés et sont en production.
+            Applications web Full-stack complexes, développées et déployées en production. Millions d'utilisateurs et millions de transactions.
           </p>
         </motion.div>
 
@@ -49,22 +59,22 @@ export function Projects() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 [&>*]:origin-center"
         >
           {projects.map((project) => (
             <motion.div
               key={project.id}
               variants={itemVariants}
             >
-              <CometCard className="h-full w-full rounded-xl overflow-hidden border border-gray-200 bg-white transition-all duration-300 hover:shadow-2xl hover:border-primary/50">
+              <CometCard className="h-full w-full rounded-2xl border border-gray-200 bg-transparent transition-all duration-300 hover:shadow-2xl hover:border-primary/50">
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex flex-col h-full"
+                  className="group flex flex-col h-full bg-white rounded-2xl"
                 >
                   {/* Image container */}
-                  <div className="relative h-48 overflow-hidden bg-gray-100">
+                  <div className="relative h-48 overflow-hidden bg-gray-100 rounded-t-2xl">
                     <Image
                       src={project.image}
                       alt={project.title}

@@ -1,3 +1,38 @@
-public
-.idea
+# Dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build output
+.next
+build
+dist
+out
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Logs
+npm-debug.log
+pnpm-debug.log
+yarn-debug.log
+
+# Local
+old/
+.claude/memory/

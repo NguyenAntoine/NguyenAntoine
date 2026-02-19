@@ -15,16 +15,16 @@ export const counters: Counter[] = [
     icon: 'User',
   },
   {
-    id: 'experience',
-    label: 'années d\'expérience professionnelle',
+    id: "experience",
+    label: "années d'expérience professionnelle",
     value: 8,
-    icon: 'Briefcase',
+    icon: "Briefcase",
   },
   {
-    id: 'graduation',
-    label: 'Année d\'obtention du diplôme',
+    id: "graduation",
+    label: "Année d'obtention du diplôme",
     value: 2019,
-    icon: 'GraduationCap',
+    icon: "GraduationCap",
   },
   {
     id: 'countries',

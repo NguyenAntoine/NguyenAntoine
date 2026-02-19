@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import {
   motion,
   useMotionValue,
@@ -21,12 +21,14 @@ export const CometCard = ({
   children: React.ReactNode;
 }) => {
   const ref = useRef<HTMLDivElement>(null);
+  const [isHovering, setIsHovering] = useState(false);
+  const rafRef = useRef<number | null>(null);
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
-  const mouseXSpring = useSpring(x);
-  const mouseYSpring = useSpring(y);
+  const mouseXSpring = useSpring(x, { damping: 20, stiffness: 300, mass: 0.5 });
+  const mouseYSpring = useSpring(y, { damping: 20, stiffness: 300, mass: 0.5 });
 
   const rotateX = useTransform(
     mouseYSpring,
@@ -57,26 +59,48 @@ export const CometCard = ({
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!ref.current) return;
+    setIsHovering(true);
 
-    const rect = ref.current.getBoundingClientRect();
+    if (rafRef.current !== null) {
+      cancelAnimationFrame(rafRef.current);
+    }
 
-    const width = rect.width;
-    const height = rect.height;
+    rafRef.current = requestAnimationFrame(() => {
+      const rect = ref.current?.getBoundingClientRect();
+      if (!rect) return;
 
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
+      const width = rect.width;
+      const height = rect.height;
 
-    const xPct = mouseX / width - 0.5;
-    const yPct = mouseY / height - 0.5;
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
 
-    x.set(xPct);
-    y.set(yPct);
+      const xPct = mouseX / width - 0.5;
+      const yPct = mouseY / height - 0.5;
+
+      x.set(xPct);
+      y.set(yPct);
+      rafRef.current = null;
+    });
   };
 
   const handleMouseLeave = () => {
+    setIsHovering(false);
+    if (rafRef.current !== null) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
     x.set(0);
     y.set(0);
   };
+
+  useEffect(() => {
+    return () => {
+      if (rafRef.current !== null) {
+        cancelAnimationFrame(rafRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className={cn("perspective-distant transform-3d", className)}>
@@ -94,20 +118,20 @@ export const CometCard = ({
         }}
         initial={{ scale: 1, z: 0 }}
         whileHover={{
-          scale: 1.05,
-          z: 50,
+          scale: 1.1,
+          z: 100,
           transition: { duration: 0.2 },
         }}
         className="relative rounded-2xl"
       >
         {children}
         <motion.div
-          className="pointer-events-none absolute inset-0 z-50 h-full w-full rounded-[16px] mix-blend-overlay"
+          className="pointer-events-none absolute inset-0 z-50 h-full w-full rounded-2xl mix-blend-overlay"
           style={{
             background: glareBackground,
-            opacity: 0.6,
           }}
-          transition={{ duration: 0.2 }}
+          animate={{ opacity: isHovering ? 0.6 : 0 }}
+          transition={{ duration: 0.3 }}
         />
       </motion.div>
     </div>
