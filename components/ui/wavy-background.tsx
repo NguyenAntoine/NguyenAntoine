@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
 
 export const WavyBackground = ({
@@ -99,16 +99,12 @@ export const WavyBackground = ({
     animationId = requestAnimationFrame(render);
   };
 
-  const [isVisible, setIsVisible] = useState(true);
-
   useEffect(() => {
     const resizeCleanup = init();
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        setIsVisible(true);
         animationId = requestAnimationFrame(render);
       } else {
-        setIsVisible(false);
         cancelAnimationFrame(animationId);
       }
     }, { threshold: 0.1 });
