@@ -15,7 +15,7 @@ export const jobs: Job[] = [
   {
     id: "emvista",
     company: "Emvista",
-    position: "Full-Stack Software Engineer",
+    position: "Full-Stack Developer",
     description: "Conception et développement d'applications complexes avec Spring Boot et Angular, en collaboration avec l'équipe produit. Création d'une application mobile Ionic 3 (AppStore & Google Play) en pensant UX utilisateur. Architecture microservices et APIs RESTful avec focus sur la maintenabilité et la scalabilité.",
     duration: "1 an",
     startDate: "2020",
@@ -26,7 +26,7 @@ export const jobs: Job[] = [
   {
     id: "penbase",
     company: "Penbase",
-    position: "Backend Software Engineer",
+    position: "Web Developer Backend",
     description: "Développement et maintenance d'applications web d'entreprise avec Symfony, en comprenant les use cases métier. Optimisation des performances et architecture base de données pour supporter les besoins utilisateurs. Apprentissage des bonnes pratiques: testing, code quality, et méthodologies agiles.",
     duration: "2 ans d'alternance",
     startDate: "2017",
