@@ -5,7 +5,7 @@ export const jobs: Job[] = [
     id: "playplay",
     company: "Playplay",
     position: "Senior Software Engineer",
-    description: "Architect et implémentation de features produit en écoutant les users. Travail sur l'architecture backend (PHP/Laravel), frontend (Vue.js) et infrastructure (Docker, CI/CD). Leadership technique avec focus sur la qualité du code et l'expérience utilisateur. Participation au développement de PlayPlay Design (solution GenAI) avec approche product-first. Mentoring d'équipe en full-remote.",
+    description: "Architect et implémentation de features produit en écoutant les users. Travail sur l'architecture backend (PHP/Laravel), frontend (Vue.js) et infrastructure (Docker, CI/CD). Leadership technique avec focus sur la qualité du code et l'expérience utilisateur. Participation au développement de PlayPlay Design (solution GenAI) avec approche product-first.",
     duration: "Depuis 2021",
     startDate: "2021",
     logo: "/images/companies/playplay.jpg",
