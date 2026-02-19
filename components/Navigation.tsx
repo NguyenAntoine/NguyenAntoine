@@ -8,7 +8,6 @@ import Image from 'next/image';
 const navItems = [
   { name: 'Accueil', href: '#hero' },
   { name: 'Compétences', href: '#intro' },
-  { name: 'Projets', href: '#projects' },
   { name: 'Témoignages', href: '#testimonials' },
   { name: 'Emplois', href: '#jobs' },
   { name: 'Loisirs', href: '#hobbies' },
