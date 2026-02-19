@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a passionate software engineer focused on buil
 
 ## 🎯 About Me
 
-- 💼 Currently working at **EmVista** as a **Senior Software Engineer**
+- 💼 Currently working at **PlayPlay** as a **Senior Software Engineer**
 - 🚀 5+ years of professional experience across startups and scale-ups
 - 🌍 Based in France, passionate about travel and new experiences
 - 🎓 Graduated from **Bac+5** program with focus on software engineering
@@ -22,9 +22,9 @@ Welcome to my GitHub profile! I'm a passionate software engineer focused on buil
 
 ## 🏢 Professional Experience
 
-- **Senior Software Engineer** at EmVista
-- **Full-Stack Developer** at PlayPlay
-- **Full-Stack Developer** at Penbase
+- **Senior Software Engineer** at PlayPlay
+- **Full-Stack Developer** at EmVista
+- **Web Developer Backend** at Penbase
 - **Web Developer** at APSIDE
 
 ## 🌟 What I'm Interested In
