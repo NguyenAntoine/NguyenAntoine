@@ -23,7 +23,7 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in build
 ## 🏢 Professional Experience
 
 - **Full-Stack Developer** at EmVista
-- **Founder & Full-Stack Developer** at PlayPlay (Startup)
+- **Full-Stack Developer** at PlayPlay
 - **Project Manager & Developer** at Penbase
 - **Web Developer** at APSIDE
 
