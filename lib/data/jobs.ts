@@ -4,8 +4,8 @@ export const jobs: Job[] = [
   {
     id: "playplay",
     company: "Playplay",
-    position: "Senior Developer Full-stack",
-    description: "J'ai apporté beaucoup de features à PlayPlay. Construit et maintenu des fonctionnalités complexes dans une plateforme SaaS en forte croissance. Travail sur l'architecture backend (PHP/Laravel), frontend (Vue.js) et infrastructure (Docker, CI/CD). Participation au développement de PlayPlay Design (solution GenAI). Travail en full-remote avec équipe internationale.",
+    position: "Senior Software Engineer",
+    description: "Architect et implémentation de features produit en écoutant les users. Travail sur l'architecture backend (PHP/Laravel), frontend (Vue.js) et infrastructure (Docker, CI/CD). Leadership technique avec focus sur la qualité du code et l'expérience utilisateur. Participation au développement de PlayPlay Design (solution GenAI) avec approche product-first. Mentoring d'équipe en full-remote.",
     duration: "Depuis 2021",
     startDate: "2021",
     logo: "/images/companies/playplay.jpg",
@@ -15,8 +15,8 @@ export const jobs: Job[] = [
   {
     id: "emvista",
     company: "Emvista",
-    position: "Développeur Full-stack",
-    description: "Conception et développement d'applications complexes avec Spring Boot et Angular. Création d'une application mobile Ionic 3 déployée sur AppStore et Google Play. Travail sur architecture microservices, APIs RESTful et infrastructure scalable pour entreprises.",
+    position: "Full-Stack Software Engineer",
+    description: "Conception et développement d'applications complexes avec Spring Boot et Angular, en collaboration avec l'équipe produit. Création d'une application mobile Ionic 3 (AppStore & Google Play) en pensant UX utilisateur. Architecture microservices et APIs RESTful avec focus sur la maintenabilité et la scalabilité.",
     duration: "1 an",
     startDate: "2020",
     endDate: "2021",
@@ -26,8 +26,8 @@ export const jobs: Job[] = [
   {
     id: "penbase",
     company: "Penbase",
-    position: "Développeur Web Backend",
-    description: "Développement et maintenance d'applications web d'entreprise avec Symfony. Optimisation des performances, gestion de bases de données MySQL, intégration d'APIs externes. Formation pratique en bonnes pratiques de développement, testing et méthodologies agiles.",
+    position: "Backend Software Engineer",
+    description: "Développement et maintenance d'applications web d'entreprise avec Symfony, en comprenant les use cases métier. Optimisation des performances et architecture base de données pour supporter les besoins utilisateurs. Apprentissage des bonnes pratiques: testing, code quality, et méthodologies agiles.",
     duration: "2 ans d'alternance",
     startDate: "2017",
     endDate: "2019",
