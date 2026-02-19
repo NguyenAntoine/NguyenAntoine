@@ -5,8 +5,8 @@ import { ChevronDown } from 'lucide-react';
 import { BackgroundBeams } from '../background-beams';
 
 export function Hero() {
-  const scrollToProjects = () => {
-    const element = document.getElementById('projects');
+  const scrollToNext = () => {
+    const element = document.querySelector('[id^="intro"]') || document.querySelector('section:nth-of-type(2)');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -51,10 +51,10 @@ export function Hero() {
             className="flex flex-col items-center gap-8 pt-8"
           >
             <button
-              onClick={scrollToProjects}
+              onClick={scrollToNext}
               className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors"
             >
-              Découvrir mes projets
+              En savoir plus
             </button>
 
             {/* Scroll indicator */}
@@ -67,7 +67,7 @@ export function Hero() {
               <motion.button
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 2, repeat: Infinity }}
-                onClick={scrollToProjects}
+                onClick={scrollToNext}
                 className="flex flex-col items-center gap-2 text-white hover:text-primary transition-colors pointer-events-auto"
               >
                 <span className="text-sm">Défiler</span>
