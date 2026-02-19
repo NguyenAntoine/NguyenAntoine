@@ -1,16 +1,16 @@
 # Antoine Nguyen
 
-👋 **Full-Stack Developer** | **Project Manager** | **Tech Enthusiast**
+👋 **Senior Software Engineer** | **Product-Oriented Craftsman** | **Tech Enthusiast**
 
-Welcome to my GitHub profile! I'm a passionate developer with expertise in building scalable web applications, managing complex projects, and bridging the gap between development and business. I love solving problems, learning new technologies, and collaborating with talented teams.
+Welcome to my GitHub profile! I'm a passionate software engineer focused on building scalable, well-crafted web applications with a product mindset. I love solving problems, learning new technologies, and collaborating with talented teams to create high-quality solutions.
 
 ## 🎯 About Me
 
-- 💼 Currently working at **EmVista** as a **Full-Stack Developer**
+- 💼 Currently working at **EmVista** as a **Senior Software Engineer**
 - 🚀 5+ years of professional experience across startups and scale-ups
 - 🌍 Based in France, passionate about travel and new experiences
 - 🎓 Graduated from **Bac+5** program with focus on software engineering
-- 🔧 Strong expertise in modern web technologies and DevOps
+- 🔧 Strong expertise in modern web technologies, product development, and code craftsmanship
 
 ## 💡 Skills & Expertise
 
@@ -18,13 +18,13 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in build
 **Backend**: Node.js, REST APIs, Database Design
 **DevOps**: Docker, Nginx, Linux, CI/CD pipelines
 **Tools**: Git, GitHub, Vercel, AWS, Project Management
-**Soft Skills**: Leadership, Mentoring, Cross-team Communication
+**Soft Skills**: Mentoring, Code Review, Technical Leadership, Product Thinking
 
 ## 🏢 Professional Experience
 
-- **Full-Stack Developer** at EmVista
+- **Senior Software Engineer** at EmVista
 - **Full-Stack Developer** at PlayPlay
-- **Project Manager & Developer** at Penbase
+- **Full-Stack Developer** at Penbase
 - **Web Developer** at APSIDE
 
 ## 🌟 What I'm Interested In
