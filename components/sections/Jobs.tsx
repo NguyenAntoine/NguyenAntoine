@@ -64,7 +64,9 @@ export function Jobs() {
         className="absolute inset-0 pointer-events-none overflow-hidden"
         style={{ height: '100%' }}
       >
-        <BackgroundBeamsWithCollision className="h-full bg-transparent" />
+        <BackgroundBeamsWithCollision className="h-full bg-transparent">
+          <div />
+        </BackgroundBeamsWithCollision>
       </div>
       <div className="container-custom relative">
         <motion.div
