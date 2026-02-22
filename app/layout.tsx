@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
@@ -36,6 +37,12 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <Script
+          defer
+          data-domain="analytics.nguyenantoine.com"
+          src="https://analytics.nguyenantoine.com/js/script.js"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}>
         {children}
