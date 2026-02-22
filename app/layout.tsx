@@ -39,7 +39,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <Script
           defer
-          data-domain="analytics.nguyenantoine.com"
+          data-domain="nguyenantoine.com"
           src="https://analytics.nguyenantoine.com/js/script.js"
           strategy="afterInteractive"
         />
